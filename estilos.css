@@ -1,0 +1,97 @@
+
+body{
+    background-image: url(viaje.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+header {
+    background-color: rgb(214, 141, 45);
+    color: white;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+#btn-registrar{
+    background-color: white;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#btn-registrar:hover{
+    background-color: rgb(151, 143, 143);
+    color: white;
+    box-shadow: 10px 8px 16px 5px lightgrey; 
+}
+#enlace-registro{
+    color:black;
+    text-decoration: none;
+}
+
+#form-registro{
+    padding-top: 80px;
+    margin-left: 35%;
+}
+
+fieldset{
+    width: 45%;
+    align-items: center;
+    border-radius: 5px;
+    background-color: white;
+}
+
+legend{
+    background-color: rgb(214, 141, 45);
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+
+label{
+    font-size: larger;
+    padding-left: 30px;
+}
+
+input{
+    all: inherit;
+    padding-left: 150px;
+    margin-left: 30px;
+}
+
+#btn-submit-form{
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#btn-submit-form:hover{
+    background-color:  rgb(151, 143, 143);
+    color: white;
+    box-shadow: 10px 8px 16px 5px lightgrey;
+}
+
+
+
