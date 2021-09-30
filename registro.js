@@ -65,4 +65,5 @@ function filtrarCorreo(arreglo) {
     return arregloCorreo;
 }
 
-//module.exports = { agregarRegistro,ordenarArreglo,filtrarCorreo };
+module.exports = { agregarRegistro,ordenarArreglo,filtrarCorreo };
+
