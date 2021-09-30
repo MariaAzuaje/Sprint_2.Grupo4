@@ -1,7 +1,7 @@
 //"use strict";
 
 function checkNombre(valor) {
-    let nombre = valor //document.getElementById("nombre").value;
+    let nombre = document.getElementById("nombre").value;//valor
     let regNum = /[0-9]+/;
     let regLong = /[a-zA-ZáéíóúÁÉÍÓÚäëïöüÄËÏÖÜàèìòùÀÈÌÒÙñÑ\s\'\:\.\,\;-]{4,30}/;
     let valLong = regLong.test(nombre);
@@ -27,7 +27,7 @@ function checkNombre(valor) {
 
 
 function checkApellido(valor) {
-    let apellido = valor //document.getElementById("apellido").value;
+    let apellido = document.getElementById("apellido").value; //valor
     let regNum = /[0-9]+/
     let regLong = /[a-zA-ZáéíóúÁÉÍÓÚäëïöüÄËÏÖÜàèìòùÀÈÌÒÙñÑ\s\'\:\.\,\;-]{4,30}/
     let valLong = regLong.test(apellido);
@@ -51,7 +51,7 @@ function checkApellido(valor) {
 
 
 function checkTelefono(valor) {
-    let tel = valor //document.getElementById('telefono').value;
+    let tel =document.getElementById('telefono').value;  //valor
     let conftel = /^[0-9]{7}$/
     let valftel =conftel.test(tel)
     if (valftel===true){
@@ -65,7 +65,7 @@ function checkTelefono(valor) {
 
 
 function checkCorreo(valor) {
-    let correo = valor //document.getElementById("correo").value;
+    let correo = document.getElementById("correo").value;// valor
     let regCorreo = /^[0-9a-z_\-\.]+@[0-9a-z\-\.]+\.[a-z]{2,4}$/i
     let valCorreo = regCorreo.test(correo);
     if (correo === ""){
@@ -83,7 +83,7 @@ function checkCorreo(valor) {
 
 
 function checkContrasena(valor) {
-    let contra = valor //document.getElementById("contrasena").value;
+    let contra = document.getElementById("contrasena").value; //valor
     let regMinus = /[a-z]+/;
     let regMayus = /[A-Z]+/;
     let regNum = /[0-9]+/;
